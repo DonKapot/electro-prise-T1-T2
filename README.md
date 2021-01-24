@@ -1,5 +1,7 @@
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+# electro-prise-T1-T2
+Count price for electricity of T1/ T2 electro meter
 
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
 # Get started
 
