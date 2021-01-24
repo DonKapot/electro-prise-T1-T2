@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "name": "count-t1-t2",
+  "description": "Count T1-T2",
+  "main": "e-main.js",
+  "build": {
+    "appId": "count-t1-t2",
+    "win": {
+      "target": "portable"
+    }
+  },
+  "author": "Alex Dan",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "validate": "svelte-check",
+    "e-start": "electron .",
+    "e-pack": "electron-builder --dir",
+    "e-dist": "electron-builder"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@tsconfig/svelte": "^1.0.0",
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^1.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0"
+  }
+}
